@@ -1,6 +1,6 @@
-FROM centos:7
+FROM centos:latest
 
-MAINTAINER michal@reapnet.io
+MAINTAINER michal@reaper.pl
 
 RUN yum -y install epel-release && \
 	yum -y update && \
